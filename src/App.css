@@ -1,38 +1,669 @@
-.App {
+.login {
+  position: relative;
+  width: 360px;
+  height: 703px;
+  background: #FFFFFF;
+}
+
+.login .first {
+  position: absolute;
+  width: 53px;
+  height: 45px;
+  left: 150px;
+  top: 120px;
+  font-family: 'Bilbo';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.login .heading {
+  position: absolute;
+  width: 250px;
+  height: 240px;
+  left: 50px;
+  top: 150px;
+  font-family: 'Bilbo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 120px;
   text-align: center;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login .button1 {
+  position: absolute;
+  height: 56px;
+  left: 10px;
+  right: 0px;
+  bottom: 97px;
+  background: #F2C94C;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login .button2 {
+  position: absolute;
+  height: 56px;
+  left: 10px;
+  right: 0px;
+  bottom: 15px;
+  background: #2F80ED;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+
+
+.signin {
+  position: relative;
+  width: 360px;
+  height: 703px;
+  background: #FFFFFF;
+}
+
+.signin .header {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.signin .smtext {
+  position: absolute;
+  width: 39px;
+  height: 14px;
+  left: 26px;
+  top: 73px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.signin .lgtext {
+  position: absolute;
+  width: 255px;
+  height: 64px;
+  left: 24px;
+  top: 98px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.signin .entries {
+  position: absolute;
+  width: 360px;
+  top: 200px;
+}
+
+.signin .entries p {
+  position: relative;
+  left: 26px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+}
+
+.signin .entries input {
+  position: relative;
+  width: 312px;
+  height: 29px;
+  left: 26px;
+  background: #F4F4F4;
+  border-radius: 8px;
+}
+
+.signin .invalid {
+  position: absolute;
+  width: 328px;
+  height: 64px;
+  left: 16px;
+  top: 535px;
   color: white;
+  text-align: center;
+  background: #EB5757;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.signin .login {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 22px;
+  right: 0px;
+  bottom: 24px;
+  background: #F2C94C;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.register {
+  position: relative;
+  width: 360px;
+  height: 703px;
+  background: #FFFFFF;
+}
+
+.register .header {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.register .smtext {
+  position: absolute;
+  width: 100px;
+  height: 14px;
+  left: 26px;
+  top: 73px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.register .lgtext {
+  position: absolute;
+  width: 255px;
+  height: 64px;
+  left: 24px;
+  top: 98px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.register .entries {
+  position: absolute;
+  width: 360px;
+  top: 200px;
+}
+
+.register .entries p {
+  position: relative;
+  left: 26px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+}
+
+.register .entries input {
+  position: relative;
+  width: 312px;
+  height: 29px;
+  left: 26px;
+  background: #F4F4F4;
+  border-radius: 8px;
+}
+
+.register .invalid {
+  position: absolute;
+  width: 328px;
+  height: 64px;
+  left: 16px;
+  top: 545px;
+  color: white;
+  text-align: center;
+  background: #6FCF97;
+  border-radius: 8px;
+}
+
+.register .rbutton {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 22px;
+  right: 0px;
+  bottom: 24px;
+  background: #F2C94C;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+
+
+
+.home {
+  position: absolute;
+  width: 255px;
+  height: 32px;
+  left: 24px;
+  top: 24px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.home .lgtext {
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 22px;
+  top: 160px;
+  font-family: 'Bilbo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+.home .start {
+  position: absolute;
+  height: 56px;
+  left: 22px;
+  width: 300px;
+  top: 400px;
+  background: #F2C94C;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+.home .new {
+  position: sticky;
+  color: white;
+  width: 124px;
+  height: 40px;
+  left: 200px;
+  bottom: 30px;
+  background: #270F36;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 199px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.card .name {
+  position: relative;
+  height: 25px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  left: 15px;
+  top: 14px;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card .status {
+  position: relative;
+  width: 165px;
+  height: 36px;
+  top: 30px;
+  left: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.card .date {
+  position: relative;
+  width: 133px;
+  height: 18px;
+  top: 45px;
+  left: 15px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3F3F3F;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.card .playbutton {
+  position: absolute;
+  height: 40px;
+  left: 13px;
+  right: 13px;
+  bottom: 13px;
+  background: #F2C94C;
+  border: #F2C94C;
+  border-radius: 8px;
+}
+
+
+
+
+.newgame {
+  position: relative;
+  width: 360px;
+  height: 703px;
+  background: #FFFFFF;
+}
+
+.newgame .header {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+.newgame .smtext {
+  position: absolute;
+  width: 200px;
+  height: 14px;
+  left: 0px;
+  top: 75px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+
+  color: #333333;
+}
+
+.newgame .lgtext {
+  position: absolute;
+  width: 255px;
+  height: 64px;
+  left: 0px;
+  top: 98px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.newgame .entry .email {
+  position: absolute;
+  width: 38px;
+  height: 14px;
+  left: 0px;
+  top: 202px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.newgame .entry .emailinput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  left: 0px;
+  top: 235px;
+  background: #F4F4F4;
+  border-radius: 8px;
+}
+
+.newgame .start {
+  position: absolute;
+  width: 300px;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  top: 600px;
+  background: #F2C94C;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+.newgame .invalid {
+  position: absolute;
+  width: 300px;
+  height: 56px;
+  left: 0px;
+  top: 530px;
+  color: white;
+  text-align: center;
+  background: #EB5757;
+  border-radius: 8px;
+}
+
+
+
+
+
+.gamelayout .header {
+  position: relative;
+  top: 13px;
+  left: 20px;
+}
+
+.gamelayout .lgtext {
+  position: absolute;
+  width: 255px;
+  height: 32px;
+  left: 20px;
+  top: 68px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.gamelayout .smtext {
+  position: absolute;
+  width: 73px;
+  height: 18px;
+  left: 20px;
+  top: 112px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.gamelayout .piece {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 30px;
+  top: 90px;
+}
+
+.gamelayout .piece .left {
+  content: "";
+  position: absolute;
+  left: 23.11px;
+  right: 64.48px;
+  top: 35.91%;
+  bottom: -0.27%;
+  background: #2C8DFF;
+  border-radius: 63.9998px;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+}
+
+.gamelayout .piece .right {
+  position: absolute;
+  left: 23px;
+  right: 65px;
+  top: 35.91%;
+  bottom: 0.27%;
+
+  background: #2C8DFF;
+  border-radius: 63.9998px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+}
+
+.gamelayout .gamebox {
+  position: absolute;
+  width: 327.88px;
+  height: 381.47px;
+  left: 16px;
+  top: 218px;
+
+  background: #FFE79E;
+}
+
+.gamelayout .gamebox .rect {
+  position: absolute;
+  width: 327.88px;
+  height: 47.29px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFE79E;
+}
+
+.gamelayout .gamebox .rect .text {
+  position: relative;
+  width: 97px;
+  height: 10px;
+  left: 115.35px;
+  top: -5px;
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.9159px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #212121;
+}
+.gamelayout .gamebox .movebox .one{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 222.79px;
+top: 276.38px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .two{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 222.79px;
+top: 164.99px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .three{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 222.79px;
+top: 53.6px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .four{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 111.39px;
+top: 276.38px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .five{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 111.39px;
+top: 164.99px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .six{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 111.39px;
+top: 53.6px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .seven{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 0px;
+top: 276.38px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .eight{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 0px;
+top: 164.99px;
+background-color: white;
+}
+.gamelayout .gamebox .movebox .nine{
+  position: absolute;
+width: 105.09px;
+height: 105.09px;
+left: 0px;
+top: 53.6px;
+background-color: white;
+}
+.gamelayout .submitbutton{
+  position: absolute;
+  width: 330px;
+height: 56px;
+left: 15px;
+right: 15px;
+bottom: 10px;
+
+/* Yellow */
+
+background: #F2C94C;
+/* Drop Shadow 1 */
+
+box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
 }
